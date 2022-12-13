@@ -1,1 +1,2 @@
-# freegithubgames.github.io
+# Mirrored Sites Hub
+Mirroring sites for... err... "educational" purposes.
