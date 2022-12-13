@@ -6,11 +6,19 @@
       body {
         background-color: #252526;
       }
+      #gamecontainer {
+        width:800px;
+        height:600px;
+        max-width:100%;
+        display: flex;
+        justify-content: center!important;
+        align-items: center;
+      }
     </style>
   </head>
   <body>
-    <div style="width:800px;height:600px;max-width:100% display: flex; justify-content: center; align-items: center;">
-    <div id="game"></div>
+    <div id="gamecontainer">
+      <div id="game"></div>
     </div>
     <script type="text/javascript">
         EJS_player = '#game';
