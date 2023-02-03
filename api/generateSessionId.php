@@ -3,5 +3,5 @@
   session_start();   
   $id = session_create_id();
   $id2 = session
-  print("{\"id\":\"".session_create_id()."\"},\"signedId\":\".session_create_id()."\"});
+  print("{\"id\":\"".session_create_id()."\"},\"signedId\":\"".session_create_id()."\"}");
 ?>
